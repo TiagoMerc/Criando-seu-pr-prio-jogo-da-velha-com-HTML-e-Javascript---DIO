@@ -4,7 +4,7 @@ CSS para estilizar e dar vida a ele, e Javascript para criarmos toda suas intera
 uma jogada e dar um vencedor ao jogo. Vamos abordar conceitos básicos sobre as linguagens e como podemos criar projetos bem 
 simples sem muito trabalho, apenas utilizando suas funções básicas e uma pouco de lógica! 
 
-HTML, CSS e JavaScript - Front-End Básico 
+HTML, CSS e JavaScript - Front-End - Básico 
 
 **ESPECIALISTA:**  Vitor Ruschoni Engenheiro de software, PicPay
 
@@ -31,3 +31,7 @@ Criando interação ao clicar no quadro
 ### Parte 6 - 7:
 
 Interação ao clicar no quadro com resultado em sequências iguais
+
+### Parte 8:
+
+Finalizando o jogo da Velha e ativando o botão Iniciar
