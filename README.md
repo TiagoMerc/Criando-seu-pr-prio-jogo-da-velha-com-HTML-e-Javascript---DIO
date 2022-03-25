@@ -15,3 +15,11 @@ Sobre a estrutura HTML, CSS e JavaScript
 ### Parte 2: 
 
 Criando o arquivo index e construindo a estrutura html base
+
+### Parte 3:
+
+Estilizando a página com CSS e conhecendo a opção de inspeção do navegador
+
+### Parte 4:
+
+Iniciando interação com JavaScript
