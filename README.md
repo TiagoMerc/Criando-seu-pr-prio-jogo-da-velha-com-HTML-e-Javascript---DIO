@@ -23,3 +23,7 @@ Estilizando a página com CSS e conhecendo a opção de inspeção do navegador
 ### Parte 4:
 
 Iniciando interação com JavaScript
+
+### Parte 5:
+
+Criando interação ao clicar no quadro 
