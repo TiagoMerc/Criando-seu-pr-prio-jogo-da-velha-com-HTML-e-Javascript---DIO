@@ -10,6 +10,10 @@ mudarJogador('X');
 
 function escolherQuadrado(id) {
 
+  if(vencedor !== null) {
+      return;
+  }
+
   var quadrado = document.getElementById(id);
 
   if (quadrado.innerHTML !== "-") {
@@ -71,10 +75,38 @@ if (checaSequencia(quadrado1, quadrado4, quadrado7)) {
 
 }
 
-/*Sequencia diagoma 1 - 5 - 9 */
-  if (checaSequencia(quadrado1, quadrado8, quadrado9)) {
+/*Sequencia 7 - 8 - 9 */
+  if (checaSequencia(quadrado7, quadrado8, quadrado9)) {
     mudaCorQuadrado(quadrado7, quadrado8, quadrado9);
     mudarVencedor(quadrado7);
+    return;
+  }
+
+  /*Sequencia 2 - 5 - 8 */
+  if (checaSequencia(quadrado2, quadrado5, quadrado8)) {
+    mudaCorQuadrado(quadrado2, quadrado5, quadrado8);
+    mudarVencedor(quadrado2);
+    return;
+  }
+
+  /*Sequencia 3 - 6 - 9 */
+  if (checaSequencia(quadrado3, quadrado6, quadrado9)) {
+    mudaCorQuadrado(quadrado3, quadrado6, quadrado9);
+    mudarVencedor(quadrado3);
+    return;
+  }
+
+  /*Sequencia diagomal 1 - 5 - 9 */
+  if (checaSequencia(quadrado1, quadrado5, quadrado9)) {
+    mudaCorQuadrado(quadrado1, quadrado5, quadrado9);
+    mudarVencedor(quadrado1);
+    return;
+  }
+
+  /*Sequencia diagomal 3 - 5 - 7 */
+  if (checaSequencia(quadrado3, quadrado5, quadrado7)) {
+    mudaCorQuadrado(quadrado3, quadrado5, quadrado7);
+    mudarVencedor(quadrado3);
     return;
 
   }
@@ -85,10 +117,7 @@ function mudarVencedor(quadrado){
   vencedorSelecionado.innerHTML = vencedor;
 }
 
-
-
-
- function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
+function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
 
   quadrado1.style.background = '#0f0';
   quadrado2.style.background = '#0f0';
@@ -105,3 +134,17 @@ function checaSequencia(quadrado1,quadrado2, quadrado3) {
 
  return Eigual;
 }
+
+function reiniciar() {
+  vencedor = null;
+  vencedorSelecionado.innerHTML = '';
+
+  for (var i = 1; i <= 9; i++){
+    var quadrado = document.getElementById(i);
+    quadrado.style.background = '#eee';
+    quadrado.style.color = '#eee';
+    quadrado.innerHTML = '-';
+  }
+
+  mudarJogador('X');
+} 
