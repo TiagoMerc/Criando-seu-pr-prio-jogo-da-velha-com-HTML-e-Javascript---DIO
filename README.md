@@ -27,3 +27,7 @@ Iniciando interação com JavaScript
 ### Parte 5:
 
 Criando interação ao clicar no quadro 
+
+### Parte 6 - 7:
+
+Interação ao clicar no quadro com resultado em sequências iguais
