@@ -35,3 +35,10 @@ Interação ao clicar no quadro com resultado em sequências iguais
 ### Parte 8:
 
 Finalizando o jogo da Velha e ativando o botão Iniciar
+
+
+### Print da tela:
+
+Atualização do projeto depois do curso
+
+![Jogo da Velha, print do jogo depois que finalizei o curso](/imgs/Print-pos%20curso.png)
