@@ -42,3 +42,7 @@ Finalizando o jogo da Velha e ativando o botão Iniciar
 Atualização do projeto depois do curso
 
 ![Jogo da Velha, print do jogo depois que finalizei o curso](/imgs/Print-pos%20curso.png)
+
+Print do jogo depois de uma rodada de jogo:
+
+![Jogo da Velha, print do jogo depois que finalizei o curso e roda de jogo](/imgs/posjogo.png)
