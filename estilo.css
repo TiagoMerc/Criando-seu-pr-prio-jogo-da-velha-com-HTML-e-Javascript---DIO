@@ -15,14 +15,28 @@ body {
  }
 
  .jogador, .vencedor { /* Classes*/
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 10px;
  }
 
  button {
+   font-size: 16px; 
    margin-top: 10px;
+   margin-block-end: 24px;
    width: 100px;
    height: 30px;
    background: #eeee;
    cursor: pointer;
+   border-radius: 8px;
  }
+ 
+#rodape {
+   text-align:start;
+   padding: 40px;
+   background-color: #eeee;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 24px;
+  }

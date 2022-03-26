@@ -6,7 +6,7 @@ simples sem muito trabalho, apenas utilizando suas funções básicas e uma pouc
 
 HTML, CSS e JavaScript - Front-End - Básico 
 
-**ESPECIALISTA:**  Vitor Ruschoni Engenheiro de software, PicPay
+**ESPECIALISTA:**  Vitor Ruschoni 
 
 ### Parte 1:
 
